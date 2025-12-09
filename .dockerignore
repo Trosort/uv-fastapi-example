@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+README.md
+*.md
+
+# Test files
+test/
+tests/
+*_test.py
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
+
+# Local development files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Cloud Build
+cloudbuild.yaml
+*.yaml
+*.yml
+
+# Service account keys (should be handled via secrets)
+*.json
+!globedrip.json
+
+# Large data files that shouldn't be in container
+*.csv
+*.zip
+
+# Cropped images
+cropped.jpg
